@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Mood Tracker</title>
+    <link rel="stylesheet" href="mood tracker.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 Daily Mood Tracker 🌟</h1>
+        <p>How are you feeling today? Select your mood below:</p>
+        
+        <div class="mood-buttons">
+            <button class="mood" data-mood="excited">🤩✨ Excited</button>
+            <button class="mood" data-mood="cheerful">😊🌞 Cheerful</button>
+            <button class="mood" data-mood="grateful">🙏💖 Grateful</button>
+            <button class="mood" data-mood="confident">😎🔥 Confident</button>
+            <button class="mood" data-mood="proud">🏆😌 Proud</button>
+            <button class="mood" data-mood="playful">😜🎉 Playful</button>
+            <button class="mood" data-mood="energetic">⚡💃 Energetic</button>
+            <button class="mood" data-mood="sad">😢💔 Sad</button>
+            <button class="mood" data-mood="heartbroken">💔😭 Heartbroken</button>
+            <button class="mood" data-mood="lonely">🥺💙 Lonely</button>
+            <button class="mood" data-mood="guilty">😞😓 Guilty</button>
+            <button class="mood" data-mood="disappointed">😞💭 Disappointed</button>
+            <button class="mood" data-mood="frustrated">😤💢 Frustrated</button>
+            <button class="mood" data-mood="annoyed">😒🙄 Annoyed</button>
+            <button class="mood" data-mood="angry">😡🔥 Angry</button>
+            <button class="mood" data-mood="jealous">😠💚 Jealous</button>
+            <button class="mood" data-mood="irritated">😑😠 Irritated</button>
+            <button class="mood" data-mood="scared">😨👀 Scared</button>
+            <button class="mood" data-mood="nervous">😬💦 Nervous</button>
+            <button class="mood" data-mood="shocked">😱⚡ Shocked</button>
+            <button class="mood" data-mood="confused">🤔❓ Confused</button>
+            <button class="mood" data-mood="loving">❤️🥰 Loving</button>
+            <button class="mood" data-mood="flirty">😉💋 Flirty</button>
+            <button class="mood" data-mood="caring">🤗💖 Caring</button>
+            <button class="mood" data-mood="admiring">😍✨ Admiring</button>
+            <button class="mood" data-mood="relaxed">😌🍃 Relaxed</button>
+            <button class="mood" data-mood="content">🙂💙 Content</button>
+            <button class="mood" data-mood="bored">😴😪 Bored</button>
+            <button class="mood" data-mood="indifferent">😐🤷 Indifferent</button>
+        </div>
+
+        <p class="selected-mood">Your current mood: <span id="current-mood">None</span></p>
+
+        <button id="dark-mode-toggle">🌙 Toggle Dark Mode</button>
+        <button id="clear-history">🗑️ Clear History</button>
+
+        <h2>Mood History</h2>
+        <ul id="mood-history"></ul>
+    </div>
+
+    <script src="mood tracker.js"></script>
+</body>
+</html>
